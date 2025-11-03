@@ -14,8 +14,8 @@
 * Numpy, Matplotlib, and Wave libraries must be installed to run
 #
 # In the future!!!
-Will expand to make this a real time application
-Will expand with GUI instead of a console applicaiton
-This is a Matplotlib, Numpy, and audio programming exercise for me!!! 
+* Will expand to make this a real time application
+* Will expand with GUI instead of a console applicaiton
+* This is a Matplotlib, Numpy, and audio programming exercise for me!!! 
 
 
