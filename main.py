@@ -21,10 +21,6 @@ def plotAudioWaveform(file):
         chunkTime = chunkSize / sampRate    #
         rawAudioChunk = file.readframes(numSamps)
 
-
-        '''
-
-        '''
         def intType(byteDepth):
             bits = byteDepth * 8
             if bits == 8:
@@ -51,7 +47,6 @@ def plotAudioWaveform(file):
         duration = numSamps /sampRate
         time = np.linspace(0, duration, numSamps)
 
-        #create the plot
         plt.figure(figsize=(10, 4))
         if numChannels == 1:
             plt.plot(time, audio, linewidth = 0.5)
